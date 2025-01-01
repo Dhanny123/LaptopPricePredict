@@ -97,7 +97,7 @@ inputVar['ram'] = ram_scaler.transform(inputVar[['ram']])
 inputVar['screen_size'] = scrSize_scaler.transform(inputVar[['screen_size']])
 
 
-pricemodel = joblib.load('Laptopmodel.pkl')
+pricemodel = joblib.load('LaptopModel.pkl')
 
 predictButton = st.button('Click To Predict')
 
